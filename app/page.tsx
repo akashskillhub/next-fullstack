@@ -1,8 +1,9 @@
+import Link from "next/link"
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+  return <>
+    <Link href="/todo">Todo</Link>
+  </>
 }
 
 export default Home
